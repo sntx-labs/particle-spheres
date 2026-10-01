@@ -32,3 +32,9 @@ Keep this repository private until the owner approves publication. No new blanke
 The running website is still deployed separately through Sites. Pushing to this repository does not redeploy or change its public URL.
 
 To prepare runtime assets for the separate authoring snapshot, run `npm run labs:authoring`, then follow the printed npm install/build instructions. The published snapshot remains the reference for current Labs behavior.
+
+## Gallery thumbnail
+
+Updated 2026-10-01 from the image supplied by Taylor.
+
+![Particle Spheres](public/images/work/particle-spheres.png)

@@ -6,5 +6,8 @@
   "sourceCommit": "0dcf1d1533de3115e87fee5fb2df4a329e6032d2",
   "importedAt": "2026-09-26",
   "upstream": null,
-  "authoringSnapshot": "authoring/particle-spheres"
+  "authoringSnapshot": "authoring/particle-spheres",
+  "thumbnail": "public/images/work/particle-spheres.png",
+  "thumbnailSourceCommit": "a71ade73961b9b87b7c7a3a0b098051646954de1",
+  "updatedAt": "2026-10-01"
 }
