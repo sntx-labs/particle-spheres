@@ -26,22 +26,23 @@ const glowPass = new UnrealBloomPass();
 
 
 let settings = {
-     distanceAffection : 11.0,
-     avoidanceFactor: 21.0,
-     avoidRelativeToPivot: true,
-     countZAxisDirection: false,
-     toggleRotation: true,
-     rotationSpeed: 0.0015,
-     particleColor: '#454545',
-     particleColorSecondary: '#ffa200',
-     colorBlendDistance: 5.0,
-     sphereCount: 6,
-     sphereRadius: 8.0,
-     bloomStrength: 0.55,
-
-     sphereWidthScale: 1.0,
-     sphereHeightScale: 1.0,
-     spread: 24, cameraDistance: 55, cameraFov: 75
+  "distanceAffection": 11,
+  "avoidanceFactor": 27.1,
+  "avoidRelativeToPivot": true,
+  "countZAxisDirection": false,
+  "toggleRotation": true,
+  "rotationSpeed": 0.009,
+  "particleColor": "#454545",
+  "particleColorSecondary": "#ffa200",
+  "colorBlendDistance": 5,
+  "sphereCount": 8,
+  "sphereRadius": 10.3,
+  "bloomStrength": 0.55,
+  "sphereWidthScale": 1.06,
+  "sphereHeightScale": 1,
+  "spread": 46,
+  "cameraDistance": 53,
+  "cameraFov": 75
 }
 
 let baseColor = new THREE.Color(settings.particleColor);
@@ -155,8 +156,8 @@ let particleActive = false;
 
 renderer.setSize( canvasContainer.clientWidth, canvasContainer.clientHeight );
 
-const camera = new THREE.PerspectiveCamera( 75, canvasContainer.clientWidth / canvasContainer.clientHeight, 0.1, 1000 );
-baseCameraZ = camera.position.z = 55; // Set initial Z and store as base
+const camera = new THREE.PerspectiveCamera( settings.cameraFov, canvasContainer.clientWidth / canvasContainer.clientHeight, 0.1, 1000 );
+baseCameraZ = camera.position.z = settings.cameraDistance; // Set initial Z and store as base
 baseFov = camera.fov; // Store the initial FOV
 
 const controls = new OrbitControls(camera, renderer.domElement );
