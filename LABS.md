@@ -7,6 +7,9 @@ Private working repository for [Particle Spheres](https://labs.sntx.co/experimen
 Requires Node.js 20 or newer. No dependency installation is needed for this published version.
 
 ```sh
+git clone https://github.com/sntx-labs/particle-spheres.git
+cd particle-spheres
+npm run labs:verify
 npm run labs:dev
 ```
 
@@ -38,3 +41,11 @@ To prepare runtime assets for the separate authoring snapshot, run `npm run labs
 Updated 2026-10-01 from the image supplied by Taylor.
 
 ![Particle Spheres](public/images/work/particle-spheres.png)
+
+## Project links and coding-assistant prompt
+
+The in-project GitHub action links to this SNTX-Labs repository. Copy prompt includes this clone URL, the Labs preview/build workflow, scene-specific editing paths, and attribution. The shared project-card module was updated on 2026-10-06 from Syntax Labs source commit `02aca49000d891df21763798c4170638d5cc27a5`; scene files and their original snapshot provenance above are unchanged.
+
+`labs:verify` checks the reference file hashes before editing. Expected mismatches after intentional runtime edits should be reviewed and the snapshot manifest updated deliberately; do not suppress unexplained differences. `labs:build` assembles the runtime and does not recompile an authoring snapshot.
+
+Follow [@taylor_sntx on Twitter/X](https://x.com/taylor_sntx) for more experiments. For custom implementation help, [contact Syntax](https://sntx.co/).
