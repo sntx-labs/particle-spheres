@@ -1,6 +1,6 @@
 # Particle Spheres
 
-Private working repository for [Particle Spheres](https://labs.sntx.co/experiments/portfolio-particle-spheres/). Updated from Syntax Labs version 63, commit `441814bebdccc143bf35addc62c8b585c84c1149`, on 2026-10-03.
+Public source repository for [Particle Spheres](https://labs.sntx.co/experiments/portfolio-particle-spheres/). Updated from Syntax Labs version 63, commit `441814bebdccc143bf35addc62c8b585c84c1149`, on 2026-10-03.
 
 ## Run the current Labs version
 
@@ -30,7 +30,7 @@ Editable authoring files are retained in `authoring/particle-spheres/`. This is 
 
 ## Publication and rights
 
-Keep this repository private until the owner approves publication. No new blanket open-source license is assigned by this migration. Existing licenses, attribution and third-party notices remain applicable. Review bundled textures, models, fonts, shaders and dependencies before public release. Private visibility does not revoke licenses previously granted for public versions.
+Published with the owner’s authorization on October 13, 2026. Existing licenses, attribution and third-party notices remain applicable; public repository access does not replace those terms. This visibility update does not relicense the source, bundled assets, or historical versions.
 
 The running website is still deployed separately through Sites. Pushing to this repository does not redeploy or change its public URL.
 
@@ -51,3 +51,7 @@ The in-project GitHub action links to this SNTX-Labs repository. Copy prompt inc
 Follow [@taylor_sntx on Twitter/X](https://x.com/taylor_sntx) for more experiments. Want an experience like this, designed for your product? Work with Syntax on a custom implementation: [sntx.co](https://sntx.co/).
 
 The custom-implementation offer is also shown in the project card and copied prompt. It is an invitation to commission work, not an additional license restriction.
+
+## Source access restored — October 13, 2026
+
+GitHub, source ZIP downloads and clone/setup instructions are enabled in the project card. ASTERION remains excluded from public source release. This update restores the shared card and source access; the scene snapshot and archived authoring provenance above remain unchanged. The current hosted scene may contain later edits.
